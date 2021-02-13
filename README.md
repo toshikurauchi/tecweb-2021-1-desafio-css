@@ -18,6 +18,8 @@ Faça um fork deste repositório e atualize o cabeçalho deste arquivo README.md
 
 Você pode modificar apenas o conteúdo do arquivo [docs/simpliflix.css](docs/simpliflix.css).
 
+**Dica:** Você pode testar facilmente no seu computador executando o comando `python -m http.server` dentro da pasta `docs`.
+
 ## Entrega
 
 O GitHub lista os forks do repositório, então corrigirei apenas os trabalhos que estiverem [nesta lista](https://github.com/toshikurauchi/tecweb-2021-1-desafio-css/network/members). Além disso, a sua página deve **obrigatoriamente** estar disponível no GitHub pages seguindo [estes passos](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
