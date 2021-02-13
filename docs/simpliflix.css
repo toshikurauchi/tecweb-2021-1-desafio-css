@@ -1,0 +1,18 @@
+/*
+Algumas informações úteis:
+  - Fontes disponíveis:
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: "Ultra", serif;
+  - Cores:
+    Vermelho: #e50914
+    Cinza: #b5b5b5
+ */
+
+body {
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
