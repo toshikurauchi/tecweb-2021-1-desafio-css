@@ -47,3 +47,4 @@ A nota deste trabalho é a soma dos pontos abaixo:
 
 - No caso de entrega com atraso, a nota será a metade da soma dos pontos obtidos.
 - A nota de trabalhos com modificações em outros arquivos além do README.md e do [docs/simpliflix.css](docs/simpliflix.css) será limitada a no máximo 7 (equivalente ao conceito B).
+- Para este trabalho você não precisa se preocupar com a versão mobile da página. Ela será testada apenas em um monitor.
