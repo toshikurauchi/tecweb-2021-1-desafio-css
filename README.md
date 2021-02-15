@@ -8,7 +8,7 @@ Grupo:
 
 ## Desafio CSS
 
-O seu objetivo é se aproximar o máximo possível da página a seguir utilizando apenas CSS puro:
+O seu objetivo é se aproximar o máximo possível da página a seguir (se precisar de uma imagem com resolução melhor [clique aqui](referencia.png)) utilizando apenas CSS puro:
 
 ![](Simpliflix.gif)
 
