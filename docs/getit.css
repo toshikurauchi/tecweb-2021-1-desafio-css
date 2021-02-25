@@ -27,6 +27,42 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.appbar {
+	background-color: #e4fc2b;	
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+}
+
+.logo {
+	width: 10%;
+}
+
+.subtitle { align-self: center;}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 15%;
+	background-color: blue;
+	margin: auto;
+}
+
+
+
+
+
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
 /* .btn {
