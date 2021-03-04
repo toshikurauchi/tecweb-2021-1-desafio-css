@@ -45,6 +45,10 @@ html, body {
   font-family: "Roboto", sans-serif;
 }
 
+textarea {
+  resize: none;
+}
+
 .form-card{
   box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -56,22 +60,144 @@ html, body {
   align-items: center;
   flex-direction:column;
   width: 30%;
+  height: 140px;
   margin: 1% auto;
   border-radius: 5px;
+
+}
+
+.form-card-title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  border: 0px none;
+  display: flex;
+
+}
+
+.autoresize{
+  font-family: 'Roboto', sans-serif;
+  border: 0px;
+  font-size: 0.9em;
+  align-items: start;
 
 }
 
 .card-container{
   margin: 1% auto;
   display: flex;
-  
+}
 
+.card-color-1{
+  background:#ead3a7;
+  margin: 1% auto;
+  display: flex;
+  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 50px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card-color-2{
+  background:#9de0f5;
+  margin: 1% auto;
+  display: flex;
+  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 50px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card-color-3{
+  background:#ef89ba;
+  margin: 1% auto;
+  display: flex;
+  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 50px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card-color-4{
+  background:#abe9c1;
+  margin: 1% auto;
+  display: flex;
+  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 50px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card-color-5{
+  background:#fae890;
+  margin: 1% auto;
+  display: flex;
+  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 50px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card-rotation-1{
+  transform: rotate(-25deg);
+}
+
+.card-rotation-2{
+  transform: rotate(-20deg);
+}
+
+.card-rotation-3{
+  transform: rotate(-15deg);
+}
+
+.card-rotation-4{
+  transform: rotate(-10deg);
+}
+
+.card-rotation-5{
+  transform: rotate(-5deg);
+}
+
+.card-rotation-6{
+  transform: rotate(0deg);
+}
+
+.card-rotation-7{
+  transform: rotate(5deg);
+}
+
+.card-rotation-8{
+  transform: rotate(10deg);
+}
+
+.card-rotation-9{
+  transform: rotate(15deg);
+}
+
+.card-rotation-10{
+  transform: rotate(20deg);
+}
+
+.card-rotation-11{
+  transform: rotate(25deg);
 }
 
 .card-{
+  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034);	
+  background:#ffffa5;
   border-radius: 2px;
   border-color: black;
   border-radius: 5px;
+  
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
@@ -79,7 +205,7 @@ html, body {
  .btn {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 250px;
 
   overflow: hidden;
 
