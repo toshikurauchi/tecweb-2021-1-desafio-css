@@ -31,6 +31,7 @@ Algumas informações úteis e dicas:
   align-items: center;
   box-shadow: 1px 0px 20px black;
   background-color: #f7d736;
+  font-weight: bold;
 }
 
 .logo{
@@ -52,33 +53,37 @@ textarea {
   flex-wrap: wrap;
 }
 .form-card{
-  box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 12px 24px, rgba(0, 0, 0, 0.22) 0px 8px 8px;
   justify-content:space-between;
   display: flex;
   flex-direction:column;
-  width: 30%;
-  height: 150px;
+  width: 29%;
+  height: 160px;
   margin: 1% auto;
-  margin-top: 1% auto;
+  margin-top: 1.5%;
   border-radius: 5px;
 }
 
 .form-card-title{
-  margin-left: 2.5%;
   margin-top: 2.5%;
+  margin-left: 2.5%;
+  margin-right: 3%;
   font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   font-size: 1.5em;
   border: 0px none;
   align-items: start;
   display: flex;
-  margin: auto;
 }
 
 .autoresize{
   font-family: 'Roboto', sans-serif;
-  border: 0px;
+  border: none;
+  font-weight: bold;
   font-size: 0.9em;
   margin-left: 2.5%;
+  margin-right: 3%;
+  margin-top: 2.5%;
 }
 
 .card-container{
@@ -108,7 +113,7 @@ textarea {
 }
 .card{
   border-radius: 10px;
-	padding-top: : 5px;
+  padding-top: : 5px;
   padding-right: 5px;
   padding-bottom: 25px;
   padding-left: : 150px;
@@ -119,27 +124,27 @@ textarea {
 
 .card-color-1{
   background:#ead3a7;
-  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
 .card-color-2{
   background:#9de0f5;
-  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
 .card-color-3{
   background:#ef89ba;
-  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
 .card-color-4{
   background:#abe9c1;
-  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
 .card-color-5{
   background:#fae890;
-  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
 .card-rotation-1{
@@ -190,17 +195,16 @@ textarea {
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
  .btn {
-   margin: 0.5em;
   position: relative;
   display: block;
-  padding: 10px;
+  padding: 2% 44.5%;
   overflow: hidden;
   border-width: 0;
   outline: none;
-  border-radius: 7px;
-  /* box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2); */
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px, rgba(0, 0, 0, 0.3) 0px 2px 5px;
+  font-weight: bold;
   background-color: #f7d736;
-
   transition: background-color 0.3s;
   margin: auto;
 }
