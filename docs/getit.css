@@ -113,14 +113,17 @@ textarea {
 }
 .card-content{
   /* flex-wrap:wrap; */
+  font-display: inline-block;  
   font-size: 0.98em;
   font-weight:normal;
   color: #2c2c2c;
   text-align:left;
   align-self: center;  
-  vertical-align: middle;
-  margin: 0px 10px 8px;
-  
+
+  margin: auto;
+  margin-left: 9px;
+  margin-right: 9px;  
+  padding-bottom: 10px;
 }
 
 .card-color-1{
