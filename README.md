@@ -5,7 +5,7 @@ Grupo:
 - Gabriel Vilaça
 - Amanda do Carmo
 - Antonio Fonseca
-- Link do GitHub Pages: (POR EXEMPLO: https://toshikurauchi.github.io/tecweb-2021-1-desafio-css/)
+- Link do GitHub Pages: https://gabrielvvvp.github.io/Grupo-ABF/
 
 ## Desafio CSS
 
