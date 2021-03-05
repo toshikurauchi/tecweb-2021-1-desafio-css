@@ -29,7 +29,7 @@ Algumas informações úteis e dicas:
   height: 100%;
   display: flex;
   align-items: center;
-  box-shadow: 1px 1px 15px black;
+  box-shadow: 1px 0px 20px black;
   background-color: #f7d736;
 }
 
@@ -46,26 +46,26 @@ html, body {
 textarea {
   resize: none;
 }
-
-.form-card{
-  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 50px 40px rgba(0, 0, 0, 0.12);
+.container{
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.form-card{
+  box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.3);
+  justify-content:space-between;
+  display: flex;
   flex-direction:column;
   width: 30%;
   height: 150px;
   margin: 1% auto;
   margin-top: 1% auto;
   border-radius: 5px;
-
 }
 
 .form-card-title{
+  margin-left: 2.5%;
+  margin-top: 2.5%;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   border: 0px none;
@@ -78,8 +78,7 @@ textarea {
   font-family: 'Roboto', sans-serif;
   border: 0px;
   font-size: 0.9em;
-  align-items: start;
-
+  margin-left: 2.5%;
 }
 
 .card-container{
@@ -106,6 +105,16 @@ textarea {
   padding-left: 20px;
   padding-right: 20px;
   margin: 5% auto;
+}
+.card{
+  border-radius: 10px;
+	padding-top: : 5px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+  padding-left: : 150px;
+  width: 290px;
+  height: 150px;
+  margin: 20px auto;
 }
 
 .card-color-1{
@@ -143,7 +152,7 @@ textarea {
 
 .card-rotation-3{
   transform: rotate(-3deg);
-}
+} 
 
 .card-rotation-4{
   transform: rotate(-2deg);
@@ -154,7 +163,7 @@ textarea {
 }
 
 .card-rotation-6{
-  transform: rotate(0deg);
+  transform: rotate(3deg);
 }
 
 .card-rotation-7{
@@ -164,6 +173,7 @@ textarea {
 .card-rotation-8{
   transform: rotate(2deg);
 }
+
 
 .card-rotation-9{
   transform: rotate(3deg);
@@ -177,36 +187,23 @@ textarea {
   transform: rotate(5deg);
 }
 
-.card{
-	border-radius: 10px;
-	padding-top: : 5px;
-    padding-right: 5px;
-    padding-bottom: 25px;
-    padding-left: : 150px;
-    width: 290px;
-    height: 150px;
-    margin: 20px auto;
-}
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
  .btn {
+   margin: 0.5em;
   position: relative;
   display: block;
-  padding: 10px 250px;
-
+  padding: 10px;
   overflow: hidden;
-
   border-width: 0;
   outline: none;
-  border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-
+  border-radius: 7px;
+  /* box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2); */
   background-color: #f7d736;
 
   transition: background-color 0.3s;
   margin: auto;
 }
-
 .btn > * {
   position: relative;
 }
