@@ -48,106 +48,91 @@ html, body {
 textarea {
   resize: none;
 }
-
-.form-card{
-  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 50px 40px rgba(0, 0, 0, 0.12);
+.container{
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.form-card{
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+  justify-content:space-between;
+  display: flex;
   flex-direction:column;
   width: 30%;
   height: 140px;
   margin: 1% auto;
-  border-radius: 5px;
+  border-radius: 10px;
 
 }
 
 .form-card-title{
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
-  border: 0px none;
+  border: none;
   display: flex;
-
+  background-color: transparent;
 }
 
 .autoresize{
   font-family: 'Roboto', sans-serif;
   border: 0px;
   font-size: 0.9em;
-  align-items: start;
 
 }
 
 .card-container{
+  align-content:flex-start;
+  justify-content:space-evenly;
+  margin: 2%;
+  display: flex;
+  flex-wrap:wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.card{
+  font-family: 'Permanent Marker', cursive;
+  width:15%;
+  margin-top: 5%;
+  border-radius: 10px;
   margin: 1% auto;
   display: flex;
+  flex-direction:column;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.card-title{
+  /* flex-wrap:wrap; */
+  font-weight: bold;
+}
+.card-content{
+  /* flex-wrap:wrap; */
+  font-weight:normal;
+  color: #2c2c2c;
 }
 
 .card-color-1{
   background:#ead3a7;
-  margin: 1% auto;
-  display: flex;
-  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 50px 40px rgba(0, 0, 0, 0.12);
 }
 
 .card-color-2{
   background:#9de0f5;
-  margin: 1% auto;
-  display: flex;
-  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 50px 40px rgba(0, 0, 0, 0.12);
 }
 
 .card-color-3{
   background:#ef89ba;
-  margin: 1% auto;
-  display: flex;
-  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 50px 40px rgba(0, 0, 0, 0.12);
 }
 
 .card-color-4{
   background:#abe9c1;
-  margin: 1% auto;
-  display: flex;
-  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 50px 40px rgba(0, 0, 0, 0.12);
 }
 
 .card-color-5{
   background:#fae890;
-  margin: 1% auto;
-  display: flex;
-  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 50px 40px rgba(0, 0, 0, 0.12);
 }
 
-.card-rotation-1{
+/* .card-rotation-1{
   transform: rotate(-25deg);
 }
 
@@ -157,7 +142,7 @@ textarea {
 
 .card-rotation-3{
   transform: rotate(-15deg);
-}
+} */
 
 .card-rotation-4{
   transform: rotate(-10deg);
@@ -168,7 +153,7 @@ textarea {
 }
 
 .card-rotation-6{
-  transform: rotate(0deg);
+  transform: rotate(3deg);
 }
 
 .card-rotation-7{
@@ -179,7 +164,7 @@ textarea {
   transform: rotate(10deg);
 }
 
-.card-rotation-9{
+/* .card-rotation-9{
   transform: rotate(15deg);
 }
 
@@ -189,36 +174,24 @@ textarea {
 
 .card-rotation-11{
   transform: rotate(25deg);
-}
-
-.card-{
-  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034);	
-  background:#ffffa5;
-  border-radius: 2px;
-  border-color: black;
-  border-radius: 5px;
-  
-}
+} */
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
  .btn {
+   margin: 0.5em;
   position: relative;
   display: block;
-  padding: 10px 250px;
-
+  padding: 10px;
   overflow: hidden;
-
   border-width: 0;
   outline: none;
-  border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-
+  border-radius: 7px;
+  /* box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2); */
   background-color: #f7d736;
 
   transition: background-color 0.3s;
 }
-
 .btn > * {
   position: relative;
 }
