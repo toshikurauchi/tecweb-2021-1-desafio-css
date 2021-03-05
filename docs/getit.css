@@ -31,7 +31,7 @@ Algumas informações úteis e dicas:
   height: 100%;
   display: flex;
   align-items: center;
-  box-shadow: 1px 1px 15px black;
+  box-shadow: 1px 0px 20px black;
   background-color: #f7d736;
 }
 
@@ -54,20 +54,23 @@ textarea {
   flex-wrap: wrap;
 }
 .form-card{
-  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.3);
   justify-content:space-between;
   display: flex;
   flex-direction:column;
   width: 30%;
   height: 140px;
-  margin: 1% auto;
+  margin: 2% auto;
   border-radius: 10px;
+  
 
 }
 
 .form-card-title{
+  margin-left: 2.5%;
+  margin-top: 2.5%;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.4em;
   border: none;
   display: flex;
   background-color: transparent;
@@ -77,7 +80,7 @@ textarea {
   font-family: 'Roboto', sans-serif;
   border: 0px;
   font-size: 0.9em;
-
+  margin-left: 2.5%;
 }
 
 .card-container{
@@ -93,27 +96,36 @@ textarea {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .card{
   font-family: 'Permanent Marker', cursive;
-  width:15%;
+  width:15.5%;
   margin-top: 5%;
   border-radius: 10px;
   margin: 1% auto;
   display: flex;
   flex-direction:column;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .card-title{
   /* flex-wrap:wrap; */
   font-weight: bold;
+  font-size: 1.2em;
+  margin: 10px 10px 15px 10px; 
 }
 .card-content{
   /* flex-wrap:wrap; */
+  font-size: 0.98em;
   font-weight:normal;
   color: #2c2c2c;
+  text-align:left;
+  align-self: center;  
+  vertical-align: middle;
+  margin: 0px 10px 8px;
+  
 }
 
 .card-color-1{
   background:#ead3a7;
+  
 }
 
 .card-color-2{
