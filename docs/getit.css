@@ -22,8 +22,6 @@ Algumas informações úteis e dicas:
   - Sombra: https://codepen.io/sdthornton/pen/wBZdXq
  */
 
-
-
 .appbar{
   left: 5%;
   top: 10%;
@@ -59,21 +57,21 @@ textarea {
   display: flex;
   flex-direction:column;
   width: 30%;
-  height: 140px;
-  margin: 2% auto;
-  border-radius: 10px;
-  
-
+  height: 150px;
+  margin: 1% auto;
+  margin-top: 1% auto;
+  border-radius: 5px;
 }
 
 .form-card-title{
   margin-left: 2.5%;
   margin-top: 2.5%;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.4em;
-  border: none;
+  font-size: 1.5em;
+  border: 0px none;
+  align-items: start;
   display: flex;
-  background-color: transparent;
+  margin: auto;
 }
 
 .autoresize{
@@ -84,87 +82,84 @@ textarea {
 }
 
 .card-container{
-  align-content:flex-start;
-  justify-content:space-evenly;
-  margin: 1%;
+  margin-top: 50px;
   display: flex;
-  flex-wrap:wrap;
-  margin-left: 5%;
-  margin-right: 5%;
-  
+  flex-wrap: wrap;
+  justify-content: center;
 }
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-.card{
-  font-family: 'Permanent Marker', cursive;
-  width:15.5%;
-  margin-top: 5%;
-  border-radius: 10px;
-  margin: 1% auto;
-  display: flex;
-  flex-direction:column;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
-}
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-.card-title{
-  /* flex-wrap:wrap; */
-  font-weight: bold;
-  font-size: 1.2em;
-  margin: 10px 10px 15px 10px; 
-}
-.card-content{
-  /* flex-wrap:wrap; */
-  font-display: inline-block;  
-  font-size: 0.98em;
-  font-weight:normal;
-  color: #2c2c2c;
-  text-align:left;
-  align-self: center;  
 
-  margin: auto;
-  margin-left: 4%;
-  margin-right: 4%;  
-  padding-bottom: 5%;
+.card-content{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.2em;
+  margin: 10% auto;
+  /*text-align: center;*/
+  margin-top: 30px;
+  padding-left: 20px;
+  margin-right: 10px;
+  color: #4c4c4c;
+}
+
+.card-title{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5em;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5% auto;
+}
+.card{
+  border-radius: 10px;
+	padding-top: : 5px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+  padding-left: : 150px;
+  width: 290px;
+  height: 150px;
+  margin: 20px auto;
 }
 
 .card-color-1{
   background:#ead3a7;
-  
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
 
 .card-color-2{
   background:#9de0f5;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
 
 .card-color-3{
   background:#ef89ba;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
 
 .card-color-4{
   background:#abe9c1;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
 
 .card-color-5{
   background:#fae890;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
 
-/* .card-rotation-1{
-  transform: rotate(-25deg);
+.card-rotation-1{
+  transform: rotate(-5deg);
 }
 
 .card-rotation-2{
-  transform: rotate(-20deg);
+  transform: rotate(-4deg);
 }
 
 .card-rotation-3{
-  transform: rotate(-15deg);
-} */
+  transform: rotate(-3deg);
+} 
 
 .card-rotation-4{
-  transform: rotate(-10deg);
+  transform: rotate(-2deg);
 }
 
 .card-rotation-5{
-  transform: rotate(-5deg);
+  transform: rotate(-1deg);
 }
 
 .card-rotation-6{
@@ -172,24 +167,25 @@ textarea {
 }
 
 .card-rotation-7{
-  transform: rotate(5deg);
+  transform: rotate(1deg);
 }
 
 .card-rotation-8{
-  transform: rotate(10deg);
+  transform: rotate(2deg);
 }
 
-/* .card-rotation-9{
-  transform: rotate(15deg);
+
+.card-rotation-9{
+  transform: rotate(3deg);
 }
 
 .card-rotation-10{
-  transform: rotate(20deg);
+  transform: rotate(4deg);
 }
 
 .card-rotation-11{
-  transform: rotate(25deg);
-} */
+  transform: rotate(5deg);
+}
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
@@ -206,6 +202,7 @@ textarea {
   background-color: #f7d736;
 
   transition: background-color 0.3s;
+  margin: auto;
 }
 .btn > * {
   position: relative;
